@@ -2,12 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Memory Card Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Game Collection</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>🃏 Memory Card Game</h1>
-  <div class="game-board"></div>
-  <script src="game.js"></script>
+  <h1>🎮 Web Game Collection</h1>
+  <p>Select a game to play:</p>
+  
+  <div class="game-buttons">
+    <button onclick="openGame('card-flip')">🃏 Memory Card Game</button>
+    <button onclick="openGame('breakout')">🧱 Breakout Game</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2025. Created by m97j.</p>
+  </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
